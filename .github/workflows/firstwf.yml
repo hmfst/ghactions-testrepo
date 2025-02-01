@@ -1,0 +1,13 @@
+name: firsrt-workflow
+on: workflow_dispatch
+jobs: 
+  print_job:
+     runs-on: ubuntu_latest
+     steps:
+       - name: Print Hello
+         run: echo "hello there "
+       - name: Print Bye
+         run: echo "Bye take care "         
+         
+         
+       
